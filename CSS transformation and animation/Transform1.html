@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box-container{
+        display: flex;
+        }
+
+        .box{
+            width: 100px;
+            height: 100px;
+            border: 2px solid black;
+            background: rgba(255, 255, 0, 0.7);
+
+        }
+
+        .box:hover{
+            /* transform: scale(2);倍数 */
+            /* transform: scale(2) rotate(15deg);角度 */
+            /* transform: skew(30deg);水平 */
+            /* transform: skewY(30deg);水平Y */
+            /* transform: translate(30px,10px);移動 */
+            /* transform: translateX(30px); */
+            /* transform: translateY(30px); */
+            /* transform: translateY(-30px); */
+            /* transform-origin: right top; */
+            /* transform-origin: right bottom; */
+            transform: scale(2);
+            transform-origin: 50% 50%;
+        }
+    </style>
+</head>
+<body>
+<h1>css</h1>
+<p>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure ea reprehenderit corporis doloremque alias cumque dolorum quas commodi sunt illum, nam eius odio et quidem placeat at quibusdam reiciendis natus.
+</p>
+<div class="box-container">
+    <class class="box">A</class>
+    <class class="box">B</class>
+    <class class="box">C</class>
+    <class class="box">D</class>
+    <class class="box">E</class>
+</div>
+<p>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure ea reprehenderit corporis doloremque alias cumque dolorum quas commodi sunt illum, nam eius odio et quidem placeat at quibusdam reiciendis natus.
+</p>
+</body>
+</html>
